@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {FaceSnap} from '../core/models/FaceSnap';
+import {FaceSnap} from '../../../core/models/FaceSnap';
 import {UpperCasePipe} from '@angular/common';
 import {Router} from '@angular/router';
 

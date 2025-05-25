@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {FaceSnapListComponent} from './face-snap-list/face-snap-list.component';
+import {FaceSnapListComponent} from './face-snaps/components/face-snap-list/face-snap-list.component';
 import {HeaderComponent} from './core/components/header/header.component';
 
 @Component({

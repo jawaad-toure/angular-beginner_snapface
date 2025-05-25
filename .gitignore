@@ -1,0 +1,42 @@
+# Dossiers de dépendances (communs à Node.js)
+node_modules/
+
+# Dossiers de build/compilation
+dist/
+build/
+.angular/ # Dossier de cache/build Angular
+
+# Fichiers de configuration d'environnement
+.env
+.env.local
+.env.development
+.env.production
+
+# Fichiers de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers système et de l'IDE
+.DS_Store # macOS
+Thumbs.db # Windows
+.idea/ # Dossier de projet IntelliJ/WebStorm
+.vscode/ # Souvent on ignore tout le dossier .vscode/ pour éviter les confs personnelles
+# Si vous voulez garder des confs VS Code mais ignorer les persos, vous pouvez affiner :
+# .vscode/*
+# !.vscode/settings.json # Garde settings.json
+# !.vscode/extensions.json # Garde extensions.json
+
+# Fichiers de cache divers
+*.swp
+*.swo
+
+# Fichiers temporaires générés par l'OS
+*~
+*.bak
+*.tmp
+
+# Autres dossiers spécifiques que vous ne voulez pas suivre
+# Par exemple, si vous avez un dossier de uploads généré localement
+uploads/

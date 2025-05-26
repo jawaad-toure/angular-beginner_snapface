@@ -5,5 +5,6 @@ export const httpInterceptorProviders = [
   {
     provide: HTTP_INTERCEPTORS,
     useClass: AuthInterceptor,
-    multi: true }
+    multi: true
+  }
 ];
